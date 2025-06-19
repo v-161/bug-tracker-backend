@@ -1,0 +1,28 @@
+# Environment variables
+.env
+config/.env # If you ever used config/.env or similar, include it
+config/config.env # If you ever used config/config.env or similar, include it
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# IDE files
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Uploads (if your backend handles file uploads locally)
+uploads/
+
+# Output of Babel/TypeScript if you compile backend code
+dist/
